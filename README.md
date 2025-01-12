@@ -33,13 +33,13 @@ Figura 1             |  Figura 2
 <img src="./img/Figura 1.png" alt="Figura 1: evolución de la frecuencia de un nombre" height="300"/>  |  <img src="./img/Figura 2.png" alt="Figura 2: frecuencias de los nombres más populares" height="300"/>
 
 
-
-
-Para almacenar estos datos en memoria, #EJERCICIOutilizaremos tuplas con nombre con la siguiente definición:
+Para almacenar estos datos en memoria, utilizaremos tuplas con nombre con la siguiente definición:
 
 ``
 FrecuenciaNombre = namedtuple('FrecuenciaNombre', 'año,nombre,frecuencia,genero')
 ``
+
+# EJERCICIO
 
 El  objetivo  del  ejercicio  es  leer  estos  datos  y  realizar  distintas  operaciones  con  ellos.  Cada  operación  se implementará en una función distinta. Use funciones auxiliares cuando lo crea conveniente para mejorar la legibilidad del código. Las funciones a implementar son:
 
